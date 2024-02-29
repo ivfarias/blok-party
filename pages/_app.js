@@ -5,6 +5,8 @@ import Grid from "../components/Grid";
 import Page from "../components/Page";
 import Teaser from "../components/Teaser";
 import Hero from "../components/Hero"
+import Yolo from "../components/Yolo"
+
 
 const components = {
   feature: Feature,
@@ -12,6 +14,7 @@ const components = {
   teaser: Teaser,
   page: Page,
   hero: Hero,
+  yolo: Yolo,
 };
 
 storyblokInit({
