@@ -1,7 +1,7 @@
 import React from "react";
 import { storyblokEditable } from "@storyblok/react";
 
-function ImageBanner({ blok }) {
+function Yolo({ blok }) {
     return (
         <header {...storyblokEditable(blok)} className="box-border flex relative flex-col shrink-0 pb-8 mt-5 h-auto">
             <img loading="lazy" src={blok.src} alt={blok.alt} className="box-border object-contain overflow-hidden shrink-0 mx-auto mt-5 w-full aspect-[3.7] max-w-[1080px] min-h-[20px] min-w-[20px]" />
@@ -15,4 +15,4 @@ function ImageBanner({ blok }) {
     );
 }
 
-export default ImageBanner;
+export default Yolo;
